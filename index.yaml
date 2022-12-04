@@ -3,9 +3,9 @@ entries:
   atlas-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-12-03T16:28:25.0044566-05:00"
+    created: "2022-12-03T20:46:45.9401513-05:00"
     description: A Helm chart to manage Atlas resources with Atlas operator
-    digest: d0a5141c228b4d13308ed9bd7b85a97dc5a320647d13e1c7333dd85a6eb55cf6
+    digest: 7d7eb5871603fedd4f370c80c2421450ed3c1e3c56276729ff245b9389791a6f
     home: https://github.com/mongodb/mongodb-enterprise-kubernetes
     icon: https://camo.githubusercontent.com/d473c25e361fb2206f06bdcf24028e8d52bc30d1/68747470733a2f2f6d6f6e676f64622d6b756265726e657465732d6f70657261746f722e73332e616d617a6f6e6177732e636f6d2f696d672f4c6561662d466f7265737425343032782e706e67
     keywords:
@@ -18,6 +18,6 @@ entries:
     name: atlas-deployment
     type: application
     urls:
-    - https://mmr116.github.io/helm-repo-mongo-atlas1/atlas-deployment-1.0.1.tgz
-    version: 1.0.1
-generated: "2022-12-03T16:28:25.0044566-05:00"
+    - https://mmr116.github.io/helm-repo-mongo-atlas1/atlas-deployment-1.0.2.tgz
+    version: 1.0.2
+generated: "2022-12-03T20:46:45.9391515-05:00"
