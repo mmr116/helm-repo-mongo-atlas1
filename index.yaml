@@ -3,7 +3,26 @@ entries:
   atlas-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-12-06T20:24:52.2797476-05:00"
+    created: "2022-12-07T20:56:26.2516696-05:00"
+    description: A Helm chart to manage Atlas resources with Atlas operator
+    digest: 40fcb545e7981d999c2b0fb0313edb37134b2498fd7d77cf934236433693028d
+    home: https://github.com/mongodb/mongodb-enterprise-kubernetes
+    icon: https://camo.githubusercontent.com/d473c25e361fb2206f06bdcf24028e8d52bc30d1/68747470733a2f2f6d6f6e676f64622d6b756265726e657465732d6f70657261746f722e73332e616d617a6f6e6177732e636f6d2f696d672f4c6561662d466f7265737425343032782e706e67
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    maintainers:
+    - email: support@mongodb.com
+      name: MongoDB
+    name: atlas-deployment
+    type: application
+    urls:
+    - https://mmr116.github.io/helm-repo-mongo-atlas1/atlas-deployment-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-12-07T20:56:26.2505877-05:00"
     description: A Helm chart to manage Atlas resources with Atlas operator
     digest: 7d7eb5871603fedd4f370c80c2421450ed3c1e3c56276729ff245b9389791a6f
     home: https://github.com/mongodb/mongodb-enterprise-kubernetes
@@ -23,7 +42,7 @@ entries:
   mongodb-atlas-operator:
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2022-12-06T20:24:52.2808602-05:00"
+    created: "2022-12-07T20:56:26.2600973-05:00"
     dependencies:
     - condition: mongodb-atlas-operator-crds.enabled
       name: mongodb-atlas-operator-crds
@@ -53,7 +72,7 @@ entries:
   mongodb-atlas-operator-crds:
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2022-12-06T20:24:52.2819587-05:00"
+    created: "2022-12-07T20:56:26.2689562-05:00"
     description: MongoDB Atlas Operator CRDs - Helm chart for installing and upgrading
       Custom Resource Definitions (CRDs) for the Atlas Operator.
     digest: e8ec62d7fc8543ba1b9ac9f84fd6c82614a47956454695fc427be36c9269588a
@@ -74,4 +93,4 @@ entries:
     urls:
     - https://mmr116.github.io/helm-repo-mongo-atlas1/mongodb-atlas-operator-crds-1.4.1.tgz
     version: 1.4.1
-generated: "2022-12-06T20:24:52.2775717-05:00"
+generated: "2022-12-07T20:56:26.2478908-05:00"
