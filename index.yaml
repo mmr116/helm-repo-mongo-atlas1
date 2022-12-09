@@ -3,9 +3,9 @@ entries:
   atlas-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-12-09T08:46:31.2047183-05:00"
+    created: "2022-12-09T09:33:19.316655-05:00"
     description: A Helm chart to manage Atlas resources with Atlas operator
-    digest: a5a154c686b51d4d5408c0d8336d6a588d25e62351bc74f3c8c89b0e274b234a
+    digest: e965fc77d29d2c7171cefcf14b34e4beb920417e3961b22f5030dcfdf6e72da9
     home: https://github.com/mongodb/mongodb-enterprise-kubernetes
     icon: https://camo.githubusercontent.com/d473c25e361fb2206f06bdcf24028e8d52bc30d1/68747470733a2f2f6d6f6e676f64622d6b756265726e657465732d6f70657261746f722e73332e616d617a6f6e6177732e636f6d2f696d672f4c6561662d466f7265737425343032782e706e67
     keywords:
@@ -22,7 +22,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-12-09T08:46:31.2036711-05:00"
+    created: "2022-12-09T09:33:19.3156624-05:00"
     description: A Helm chart to manage Atlas resources with Atlas operator
     digest: 7d7eb5871603fedd4f370c80c2421450ed3c1e3c56276729ff245b9389791a6f
     home: https://github.com/mongodb/mongodb-enterprise-kubernetes
@@ -42,7 +42,7 @@ entries:
   mongodb-atlas-operator:
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2022-12-09T08:46:31.2097275-05:00"
+    created: "2022-12-09T09:33:19.317779-05:00"
     dependencies:
     - condition: mongodb-atlas-operator-crds.enabled
       name: mongodb-atlas-operator-crds
@@ -72,7 +72,7 @@ entries:
   mongodb-atlas-operator-crds:
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2022-12-09T08:46:31.2203381-05:00"
+    created: "2022-12-09T09:33:19.3183363-05:00"
     description: MongoDB Atlas Operator CRDs - Helm chart for installing and upgrading
       Custom Resource Definitions (CRDs) for the Atlas Operator.
     digest: e8ec62d7fc8543ba1b9ac9f84fd6c82614a47956454695fc427be36c9269588a
@@ -93,4 +93,4 @@ entries:
     urls:
     - https://mmr116.github.io/helm-repo-mongo-atlas1/mongodb-atlas-operator-crds-1.4.1.tgz
     version: 1.4.1
-generated: "2022-12-09T08:46:31.1987007-05:00"
+generated: "2022-12-09T09:33:19.3145096-05:00"
